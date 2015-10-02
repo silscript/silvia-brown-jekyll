@@ -1,0 +1,18 @@
+# Ignore these directories.
+build
+components
+coverage
+node_modules
+sandbox
+
+# Ignore these files.
+.DS_Store
+.idea
+*.log
+*.node
+*.orig
+gulp.1
+
+# Ignore these test files.
+test/out-fixtures/*
+test/watch-*.txt
