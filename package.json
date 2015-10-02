@@ -1,5 +1,5 @@
 {
-  "name": "silviabrown-portfolio",
+  "name": "silvia-brown-portfolio",
   "version": "0.1.0",
   "description": "Personal portfolio project using Gulp, Jekyll, Sass, and BrowserSync.",
   "main": "gulpfile.js",
@@ -7,8 +7,18 @@
     "test": "echo \"Error: No test specified.\" && exit 1"
   },
   "author": "Silvia Brown",
-  "license": "ISC",
+  "license": "",
   "devDependencies": {
     "gulp": "^3.9.0"
-  }
+  },
+  "repository": {
+  "type": "git",
+  "url": "https://github.com/silscript/silviabrown-portfolio"
+  },
+  "keywords": [
+    "jekyll",
+    "gulp",
+    "sass",
+    "browsersync"
+  ]
 }
