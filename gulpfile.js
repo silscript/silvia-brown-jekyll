@@ -14,3 +14,8 @@ gulp.task('jekyll-build', function (done) {
   return cp.spawn('jekyll', ['build'], {stdio: 'inherit'})
     .on('close', done);
 });
+
+// Rebuild Jekyll and reload page.
+gulp.task('jekyll-rebuild', ['jekyll-build'], function () {
+  browserSync.reload();
+});
