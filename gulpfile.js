@@ -43,3 +43,10 @@ gulp.task('sass', function () {
     .pipe(gulp.dest('css'));
 });
 
+// Watch and recompile HTML and Sass files.
+gulp.task('watch', function () {
+  gulp.watch('_scss/*.scss', ['sass']);
+  gulp.watch(['*.html', '_layouts/*.html', '_posts/*'], ['jekyll-rebuild']);
+});
+
+
