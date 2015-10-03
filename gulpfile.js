@@ -49,4 +49,5 @@ gulp.task('watch', function () {
   gulp.watch(['*.html', '_layouts/*.html', '_posts/*'], ['jekyll-rebuild']);
 });
 
-
+// Compile Jekyll site, Sass files, and launch BrowserSync.
+gulp.task('default', ['browser-sync', 'watch']);
