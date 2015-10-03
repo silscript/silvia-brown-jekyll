@@ -8,10 +8,12 @@ sandbox
 # Ignore these files.
 .DS_Store
 .idea
+.sass-cache
 *.log
 *.node
 *.orig
 gulp.1
+_site
 
 # Ignore these test files.
 test/out-fixtures/*
