@@ -19,3 +19,12 @@ gulp.task('jekyll-build', function (done) {
 gulp.task('jekyll-rebuild', ['jekyll-build'], function () {
   browserSync.reload();
 });
+
+// Build Jekyll site and launch server.
+gulp.task('browser-sync', ['sass', 'jekyll-build'], function() {
+  browserSync({
+    server: {
+      baseDir: '_site'
+    }
+  });
+});
