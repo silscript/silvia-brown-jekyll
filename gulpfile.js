@@ -7,3 +7,10 @@ var cp          = require('child_process');
 var messages = {
   jekyllBuild: '<span style="color: grey">Running:</span> $ jekyll build'
 };
+
+// Build Jekyll site.
+gulp.task('jekyll-build', function (done) {
+  browserSync.notify(messages.jekyllBuild);
+  return cp.spawn('jekyll', ['build'], {stdio: 'inherit'})
+    .on('close', done);
+});
