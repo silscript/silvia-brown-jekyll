@@ -1,24 +1,26 @@
 {
   "name": "silvia-brown-portfolio",
   "version": "0.1.0",
-  "description": "A simple portfolio to view works, using Gulp, Jekyll. Sass, and browsersync.",
+  "description": "A simple portfolio to view work, using Gulp, Jekyll. Sass, and BrowserSync.",
   "main": "gulpfile.js",
   "scripts": {
-    "test": "echo \"Error: No test specified.\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Silvia Brown",
-  "license": "",
+  "license": "To be added.",
   "devDependencies": {
-    "gulp": "^3.9.0",
-    "gulp-concat": "^2.6.0",
-    "gulp-jshint": "^1.11.2",
-    "gulp-rename": "^1.2.2",
+    "gulp": "^3.8.8",
     "gulp-sass": "^2.0.4",
-    "gulp-uglify": "^1.4.1"
+    "browser-sync": "^2.9.8",
+    "gulp-autoprefixer": "3.0.2"
   },
+  "bugs": {
+    "url": "https://github.com/silscript/silvia-brown-portfolio/issues"
+  },
+  "homepage": "https://github.com/silscript/silvia-brown-portfolio",
   "repository": {
     "type": "git",
-    "url": "https://github.com/silscript/silvia-brown-portfolio"
+    "url": "https://github.com/silscript/silvia-brown-portfolio.git"
   },
   "keywords": [
     "browsersync",
