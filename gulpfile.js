@@ -31,7 +31,7 @@ gulp.task('browser-sync', ['sass', 'jekyll-build'], function() {
 
 // Compiles all Sass files.
 gulp.task('sass', function () {
-  return gulp.src('_scss/main.scss')
+  return gulp.src('_sass/main.scss')
     .pipe(sass({
       includePaths: ['scss'],
       onError: browserSync.notify
@@ -45,8 +45,15 @@ gulp.task('sass', function () {
 
 // Watch and recompile HTML and Sass files.
 gulp.task('watch', function () {
-  gulp.watch('_scss/*.scss', ['sass']);
-  gulp.watch(['*.html', '_layouts/*.html', '_posts/*'], ['jekyll-rebuild']);
+  gulp.watch('_sass/main.scss', ['sass']);
+  gulp.watch('_sass/vendor/*.scss', ['sass']);
+  gulp.watch('_sass/utils/*.scss', ['sass']);
+  gulp.watch('_sass/base/*.scss', ['sass']);
+  gulp.watch('_sass/layout/*.scss', ['sass']);
+  gulp.watch('_sass/components/*.scss', ['sass']);
+  gulp.watch('_sass/pages/*.scss', ['sass']);
+  gulp.watch('_sass/themes/*.scss', ['sass']);
+  gulp.watch(['*.html', '_layouts/*.html', '_posts/*', '_poetry/*', '_portfolio/*'], ['jekyll-rebuild']);
 });
 
 // Compile Jekyll site, Sass files, and launch BrowserSync.
