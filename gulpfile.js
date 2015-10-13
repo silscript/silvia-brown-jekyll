@@ -8,7 +8,7 @@ var messages = {
   jekyllBuild: '<span style="color: grey">Running:</span> $ jekyll build'
 };
 
-// Build Jekyll site.
+// Builds Jekyll site.
 gulp.task('jekyll-build', function (done) {
   browserSync.notify(messages.jekyllBuild);
   return cp.spawn('jekyll', ['build'], {stdio: 'inherit'})
@@ -20,7 +20,7 @@ gulp.task('jekyll-rebuild', ['jekyll-build'], function () {
   browserSync.reload();
 });
 
-// Build Jekyll site and launch server.
+// Builds Jekyll site and launch server.
 gulp.task('browser-sync', ['sass', 'jekyll-build'], function() {
   browserSync({
     server: {
@@ -40,10 +40,10 @@ gulp.task('sass', function () {
     .pipe(prefix(['last 15 versions', '> 1%', 'ie 8', 'ie 7'], { cascade: true }))
     .pipe(gulp.dest('_site/css'))
     .pipe(browserSync.reload({stream:true}))
-    .pipe(gulp.dest('css'));
+    .pipe(gulp.dest('assets/css'));
 });
 
-// Watch and recompile HTML and Sass files.
+// Watches and recompiles HTML and Sass files.
 gulp.task('watch', function () {
   gulp.watch('_sass/main.scss', ['sass']);
   gulp.watch('_sass/vendor/*.scss', ['sass']);
@@ -56,5 +56,5 @@ gulp.task('watch', function () {
   gulp.watch(['*.html', '_layouts/*.html', '_posts/*', '_poetry/*', '_portfolio/*'], ['jekyll-rebuild']);
 });
 
-// Compile Jekyll site, Sass files, and launch BrowserSync.
+// Compiles Jekyll site, Sass files, and launch BrowserSync.
 gulp.task('default', ['browser-sync', 'watch']);
