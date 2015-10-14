@@ -9,10 +9,10 @@
   "author": "Silvia Brown",
   "license": "To be added.",
   "devDependencies": {
-    "gulp": "^3.8.8",
-    "gulp-sass": "^2.0.4",
     "browser-sync": "^2.9.8",
-    "gulp-autoprefixer": "3.0.2"
+    "gulp": "^3.9.0",
+    "gulp-autoprefixer": "3.0.2",
+    "gulp-sass": "^2.0.4"
   },
   "bugs": {
     "url": "https://github.com/silscript/silvia-brown-portfolio/issues"
