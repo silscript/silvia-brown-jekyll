@@ -1,7 +1,13 @@
-# Site Settings
-name: Title of Site
+# Site Configuration
 
-# Build Settings
-markdown: redcarpet
-highlighter: pygments # or rouge or null
-exclude: ["node_modules", "gulpfile.js", "package.json"]
+# The base hostname and protcol.
+# The subpath of the site.
+# Exclude these files and folders.
+
+# url: "http://www.silviabrown.co"
+# baseurl: "/"
+exclude: [".gitignore", "gulpfile.js", "package.json", "LICENSE.txt", "README.md", "node_modules"]
+
+# Meta information.
+title: Silvia Brown
+description: "Silvia Brown's Work"
