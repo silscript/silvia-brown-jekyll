@@ -42,3 +42,11 @@ stack_exchange:
 tumblr:
 twitter: silscript
 youtube:
+
+# Strings information.
+string_continue: "Read more ..."
+string_email: "Email"
+string_follow_on: "Follow me on"
+string_follow_rss: "Follow RSS feed."
+string_next: "Next"
+string_prev: "Previous"
