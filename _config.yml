@@ -11,3 +11,12 @@ exclude: [".gitignore", "gulpfile.js", "package.json", "LICENSE.txt", "README.md
 # Meta information.
 title: Silvia Brown
 description: "Silvia Brown's Work"
+
+# Header text.
+header_text: >
+  <h1>Header text placeholder.</h1>
+  <p>Paragraphy text placeholder.</p>
+
+# Footer text.
+footer_text: >
+  <p>Footer test placeholder.</p>
