@@ -53,7 +53,7 @@ gulp.task('watch', function () {
   gulp.watch('_sass/components/*.scss', ['sass']);
   gulp.watch('_sass/pages/*.scss', ['sass']);
   gulp.watch('_sass/themes/*.scss', ['sass']);
-  gulp.watch(['*.html', '_layouts/*.html', '_posts/*', '_poetry/*', '_portfolio/*'], ['jekyll-rebuild']);
+  gulp.watch(['_config.yml', '*.html', '_includes/*.html', '_layouts/*.html', '_posts/*', '_work/*'], ['jekyll-rebuild']);
 });
 
 // Compiles Jekyll site, Sass files, and launch BrowserSync.
