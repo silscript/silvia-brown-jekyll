@@ -50,3 +50,13 @@ string_follow_on: "Follow me on"
 string_follow_rss: "Follow RSS feed."
 string_next: "Next"
 string_prev: "Previous"
+
+# Site pagination.
+paginate: 100
+paginate_path: "blog/page:num"
+
+# Site collections.
+collections:
+  work:
+    output: true
+    permalink: /work/:path/
