@@ -20,3 +20,25 @@ header_text: >
 # Footer text.
 footer_text: >
   <p>Footer test placeholder.</p>
+
+# Contact information.
+rss: false
+email: hello@silviabrown.co
+
+# Social network information.
+behance:
+dribbble: silscript
+facebook:
+flickr:
+github: silscript
+google_plus:
+instagram: silscript
+linkedin: silscript
+pinterest: silscript
+reddit:
+rdio: silscript
+soundcloud:
+stack_exchange:
+tumblr:
+twitter: silscript
+youtube:
