@@ -38,7 +38,7 @@ gulp.task('sass', function () {
     }))
 
     .pipe(prefix(['last 15 versions', '> 1%', 'ie 8', 'ie 7'], { cascade: true }))
-    .pipe(gulp.dest('_site/css'))
+    .pipe(gulp.dest('_site/assets/css'))
     .pipe(browserSync.reload({stream:true}))
     .pipe(gulp.dest('assets/css'));
 });
@@ -53,7 +53,7 @@ gulp.task('watch', function () {
   gulp.watch('_sass/components/*.scss', ['sass']);
   gulp.watch('_sass/pages/*.scss', ['sass']);
   gulp.watch('_sass/themes/*.scss', ['sass']);
-  gulp.watch(['_config.yml', '*.html', '_includes/*.html', '_layouts/*.html', '_posts/*', '_work/*'], ['jekyll-rebuild']);
+  gulp.watch(['*.html', '_includes/*.html', '_layouts/*.html', '_posts/*', '_work/*'], ['jekyll-rebuild']);
 });
 
 // Compiles Jekyll site, Sass files, and launch BrowserSync.
