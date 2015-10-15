@@ -1,0 +1,21 @@
+// Base Styles
+
+html {
+  background-color: $brand-color-secondary;
+  box-sizing: border-box;
+  overflow-y: scroll;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+a {
+  // color: $;
+  text-decoration: none;
+
+  @include on-event {
+    // color: $;
+    text-decoration: underline;
+  }
+}
