@@ -1,0 +1,31 @@
+// Application-Wide Functions
+
+/// Native `url(..)` Function wrapper.
+/// @param {String} $base - Base URL for the asset.
+/// @param {String} $type - Asset type folder (e.g. `fonts/`).
+/// @param {String} $path - Asset path.
+/// @return {Url}
+
+@function asset($base, $type, $path) {
+  @return url($base + $type + $path);
+}
+
+/// Returns URL to an image based on its path.
+/// @param {String} $path - image path
+/// @param {String} $base [$base-url] - base URL
+/// @return {Url}
+/// @require $base-url
+
+@function image($path, $base: $base-url) {
+  @return asset($base, 'images/', $path);
+}
+
+/// Returns URL to a font based on its path.
+/// @param {String} $path - Font path.
+/// @param {String} $base [$base-url] - Base URL.
+/// @return {Url}
+/// @require $base-url
+
+@function font($path, $base: $base-url) {
+  @return asset($base, 'fonts/', $path);
+}

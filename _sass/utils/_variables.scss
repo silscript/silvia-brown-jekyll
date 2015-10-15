@@ -1,0 +1,45 @@
+// Application-Wide Variables
+
+// Container Width
+$container-max-width: 1200px !default;
+
+// Font Families
+$font-family-primary: 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif !default;
+$font-family-code: 'Courier New', 'Bitstream Vera Sans Mono', 'Monaco', monospace !default;
+
+// Font Sizes
+$font-size-small: 0.833em;                // 10px
+$font-size-medium: 1em;                   // 12px
+$font-size-large: 1.167em;                // 14px
+
+// Font Weights
+$font-weight-regular: 400;                // Regular
+$font-weight-bold: 700;                   // Bold
+
+// Line Heights
+$line-height-medium: 1.500em;             // 15px
+
+// Main Brand Colors
+$brand-color-primary: #000 !default;      // Black
+$brand-color-secondary: #FFF !default;    // White
+$brand-color-quaternary: #333 !default;   // Dark Grey
+
+// Other Brand Colors
+$color-light-grey: #EDEDED !default;
+$color-dark-grey: #444 !default;
+$color-mid-grey: #999 !default;
+
+// Padding & Margin
+$gutter-small: 0.833em;                   // 10px
+$gutter-medium: 1em;                      // 12px
+$gutter-large: 1.667em;                   // 20px
+
+// Breakpoints Map
+$breakpoints: (
+  'small': (min-width: 320px),
+  'medium': (min-width: 768px),
+  'large': (min-width: 1024px),
+) !default;
+
+// Relative or Absolute URL
+$base-url: '/assets/' !default;
