@@ -1,6 +1,7 @@
 <header>
   <nav>
     <ul>
+      <li><a href="{{ site.baseurl }}/">{{ site.title }}</a></li>
       {% for page in site.pages %}
       {% if page.title and page.hide != true %}
       <li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
@@ -8,10 +9,4 @@
       {% endfor %}
     </ul>
   </nav>
-
-  {% if site.header_text %}
-  <div>
-    <h1><a href="{{ site.baseurl }}/">{{ site.title }}</a></h1>
-  </div>
-  {% endif %}
 </header>
