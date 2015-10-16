@@ -1,6 +1,8 @@
 ---
 layout: page
 title: Title of Eighth Work
+description: Mauris ac ligula at diam laoreet tempus.
+thumbnail:
 year: 2008
 ---
 

@@ -1,6 +1,8 @@
 ---
 layout: page
 title: Title of Seventh Work
+description: Nunc eu erat vitae enim condimentum faucibus.
+thumbnail:
 year: 2007
 ---
 

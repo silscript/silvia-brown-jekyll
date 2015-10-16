@@ -1,6 +1,8 @@
 ---
 layout: page
 title: Title of 10th Work
+description: Duis pulvinar velit sit amet faucibus pellentesque.
+thumbnail:
 year: 2010
 ---
 

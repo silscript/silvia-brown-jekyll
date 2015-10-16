@@ -1,6 +1,8 @@
 ---
 layout: page
 title: Title of Second Work
+description: Proin semper turpis vitae semper mollis.
+thumbnail:
 year: 2002
 ---
 

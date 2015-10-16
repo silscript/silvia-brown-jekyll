@@ -1,6 +1,8 @@
 ---
 layout: page
 title: Title of Fourth Work
+description: Vivamus gravida ante at mi condimentum commodo.
+thumbnail:
 year: 2004
 ---
 

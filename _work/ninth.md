@@ -1,6 +1,8 @@
 ---
 layout: page
 title: Title of Ninth Work
+description: In est ac mauris viverra viverra sit amet eu tellus.
+thumbnail:
 year: 2009
 ---
 

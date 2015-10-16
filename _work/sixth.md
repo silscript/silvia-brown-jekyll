@@ -1,6 +1,8 @@
 ---
 layout: page
 title: Title of Sixth Work
+description: Ut mollis diam sit amet est mattis commodo.
+thumbnail:
 year: 2006
 ---
 

@@ -1,6 +1,8 @@
 ---
 layout: page
 title: Title of Fifth Work
+description: Donec tincidunt massa a odio aliquet dignissim.
+thumbnail:
 year: 2005
 ---
 

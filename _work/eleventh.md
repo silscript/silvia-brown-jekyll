@@ -1,6 +1,8 @@
 ---
 layout: page
 title: Title of Eleventh Work
+description: Vivamus eu dui in velit dictum placerat.
+thumbnail:
 year: 2011
 ---
 

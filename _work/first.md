@@ -1,6 +1,8 @@
 ---
 layout: page
 title: Title of First Work
+description: Curabitur ac neque nec orci rutrum efficitur.
+thumbnail:
 year: 2001
 ---
 

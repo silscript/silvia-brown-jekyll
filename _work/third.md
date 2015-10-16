@@ -1,6 +1,8 @@
 ---
 layout: page
 title: Title of Third Work
+description: Cras mattis ante id magna consectetur viverra.
+thumbnail:
 year: 2003
 ---
 
