@@ -2,7 +2,7 @@
 layout: page
 title: Title of First Work
 description: Curabitur ac neque nec orci rutrum efficitur.
-thumbnail:
+thumbnail: "assets/img/img_placeholder_10.jpg"
 year: 2001
 ---
 

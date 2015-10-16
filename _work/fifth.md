@@ -2,7 +2,7 @@
 layout: page
 title: Title of Fifth Work
 description: Donec tincidunt massa a odio aliquet dignissim.
-thumbnail:
+thumbnail: "assets/img/img_placeholder_10.jpg"
 year: 2005
 ---
 

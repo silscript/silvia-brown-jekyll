@@ -2,7 +2,7 @@
 layout: page
 title: Title of Third Work
 description: Cras mattis ante id magna consectetur viverra.
-thumbnail:
+thumbnail: thumbnail: "assets/img/img_placeholder_20.jpg"
 year: 2003
 ---
 

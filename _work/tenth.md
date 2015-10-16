@@ -2,7 +2,7 @@
 layout: page
 title: Title of 10th Work
 description: Duis pulvinar velit sit amet faucibus pellentesque.
-thumbnail:
+thumbnail: "assets/img/img_placeholder_15.jpg"
 year: 2010
 ---
 
