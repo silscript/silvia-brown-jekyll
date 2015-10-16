@@ -27,3 +27,33 @@
     transition: .5s;
   }
 }
+
+@media (min-width: 320px) {
+  .grid-tile {
+    flex: 0 0 50%;
+  }
+}
+
+@media (min-width: 414px) {
+  .grid-tile {
+    flex: 0 0 50%;
+  }
+}
+
+@media (min-width: 768px) {
+  .grid-tile {
+    flex: 0 0 33.3%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .grid-tile {
+    flex: 0 0 25%;
+  }
+}
+
+@media (min-width: 1600px) {
+  .grid-tile {
+    flex: 0 0 16.666%;
+  }
+}
