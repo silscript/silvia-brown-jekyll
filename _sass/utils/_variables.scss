@@ -8,7 +8,7 @@ $font-family-primary: 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif !defaul
 $font-family-code: 'Courier New', 'Bitstream Vera Sans Mono', 'Monaco', monospace !default;
 
 // Font Sizes
-$font-size-extra-small: 0.800em           // 8px
+$font-size-extra-small: 0.800em;          // 8px
 $font-size-small: 1.000em;                // 10px
 $font-size-medium: 1.200em;               // 12px
 $font-size-large: 1.400em;                // 14px
@@ -32,16 +32,18 @@ $color-dark-grey: #444 !default;
 $color-mid-grey: #999 !default;
 
 // Padding & Margin
-$gutter-extra-small: 0.400em              // 4px
+$gutter-extra-small: 0.400em;             // 4px
 $gutter-small: 1.000em;                   // 10px
 $gutter-medium: 1.200em;                  // 12px
 $gutter-large: 2.000em;                   // 20px
 
 // Breakpoints Map
 $breakpoints: (
-  'small': (min-width: 320px),
+  'extra-small': (min-width: 320px),
+  'small': (min-width: 414px),
   'medium': (min-width: 768px),
   'large': (min-width: 1024px),
+  'extra-large': (min-width: 1600px)
 ) !default;
 
 // Relative or Absolute URL
