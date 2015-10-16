@@ -9,21 +9,21 @@
   flex: 0 0 100%;
   overflow: hidden;
   position: relative;
-}
 
-.grid-tile a {
-  display: block;
-  line-height: 0;
-  position: relative;
-}
+  a {
+    display: block;
+    line-height: 0;
+    position: relative;
+  }
 
-.grid-tile img {
-  filter: grayscale(0);
-}
+  img {
+    filter: grayscale(0);
+  }
 
-.grid-tile:focus img,
-.grid-tile:hover img {
-  filter: grayscale(1) blur(1px);
-  opacity: .2;
-  transition: .5s;
+  &:focus img,
+  &:hover img {
+    filter: grayscale(1) blur(1px);
+    opacity: .2;
+    transition: .5s;
+  }
 }
