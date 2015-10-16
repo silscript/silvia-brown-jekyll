@@ -8,9 +8,11 @@ $font-family-primary: 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif !defaul
 $font-family-code: 'Courier New', 'Bitstream Vera Sans Mono', 'Monaco', monospace !default;
 
 // Font Sizes
-$font-size-small: 0.833em;                // 10px
-$font-size-medium: 1em;                   // 12px
-$font-size-large: 1.167em;                // 14px
+$font-size-extra-small: 0.800em           // 8px
+$font-size-small: 1.000em;                // 10px
+$font-size-medium: 1.200em;               // 12px
+$font-size-large: 1.400em;                // 14px
+$font-size-extra-large: 1.600em;          // 16px
 
 // Font Weights
 $font-weight-regular: 400;                // Regular
@@ -30,9 +32,10 @@ $color-dark-grey: #444 !default;
 $color-mid-grey: #999 !default;
 
 // Padding & Margin
-$gutter-small: 0.833em;                   // 10px
-$gutter-medium: 1em;                      // 12px
-$gutter-large: 1.667em;                   // 20px
+$gutter-extra-small: 0.400em              // 4px
+$gutter-small: 1.000em;                   // 10px
+$gutter-medium: 1.200em;                  // 12px
+$gutter-large: 2.000em;                   // 20px
 
 // Breakpoints Map
 $breakpoints: (
