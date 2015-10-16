@@ -26,34 +26,24 @@
     opacity: .2;
     transition: .5s;
   }
-}
 
-@media (min-width: 320px) {
-  .grid-tile {
+  @include respond-to('extra-small') {
     flex: 0 0 50%;
   }
-}
 
-@media (min-width: 414px) {
-  .grid-tile {
+  @include respond-to('small') {
     flex: 0 0 50%;
   }
-}
 
-@media (min-width: 768px) {
-  .grid-tile {
+  @include respond-to('medium') {
     flex: 0 0 33.3%;
   }
-}
 
-@media (min-width: 1024px) {
-  .grid-tile {
+  @include respond-to('large') {
     flex: 0 0 25%;
-  }
-}
+    }
 
-@media (min-width: 1600px) {
-  .grid-tile {
+  @include respond-to('extra-large') {
     flex: 0 0 16.666%;
   }
 }
