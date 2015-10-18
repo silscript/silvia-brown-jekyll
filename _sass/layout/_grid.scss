@@ -2,48 +2,36 @@
 
 .grid {
   display: flex;
+  flex-direction: row;
   flex-wrap: wrap;
 }
 
 .grid-tile {
-  flex: 0 0 100%;
+  background-color: orange;
+  flex-basis: 100%;
   overflow: hidden;
-  position: relative;
 
-  a {
-    display: block;
-    line-height: 0;
-    position: relative;
-  }
-
-  img {
-    filter: grayscale(0);
-  }
-
-  &:focus img,
-  &:hover img {
-    filter: grayscale(1) blur(1px);
-    opacity: .2;
-    transition: .5s;
+  > div {
+    background-color: peachpuff;
+    height: 200px;
+    margin: $gutter-extra-small;
   }
 
   @include respond-to('extra-small') {
-    flex: 0 0 50%;
+    flex-basis: 0 0 50%;
   }
 
   @include respond-to('small') {
-    flex: 0 0 50%;
+    flex-basis: 50%;
   }
 
   @include respond-to('medium') {
-    flex: 0 0 33.3%;
+    flex-basis: 25%;
   }
+}
 
-  @include respond-to('large') {
-    flex: 0 0 25%;
-    }
-
-  @include respond-to('extra-large') {
-    flex: 0 0 16.666%;
+.grid-tile-wide {
+  @include respond-to('small') {
+    flex-basis: 50%;
   }
 }
