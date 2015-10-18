@@ -32,7 +32,7 @@ $color-dark-grey: #444 !default;
 $color-mid-grey: #999 !default;
 
 // Padding & Margin
-$gutter-extra-small: 0.400em;             // 4px
+$gutter-extra-small: 0.500em;             // 5px
 $gutter-small: 1.000em;                   // 10px
 $gutter-medium: 1.200em;                  // 12px
 $gutter-large: 2.000em;                   // 20px
@@ -41,9 +41,9 @@ $gutter-large: 2.000em;                   // 20px
 $breakpoints: (
   'extra-small': (min-width: 320px),
   'small': (min-width: 414px),
-  'medium': (min-width: 768px),
-  'large': (min-width: 1024px),
-  'extra-large': (min-width: 1600px)
+  'medium': (min-width: 640px),
+  'large': (min-width: 768px),
+  'extra-large': (min-width: 1024px)
 ) !default;
 
 // Relative or Absolute URL
