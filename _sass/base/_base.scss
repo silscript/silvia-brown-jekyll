@@ -10,12 +10,30 @@ html {
   box-sizing: inherit;
 }
 
+body {
+  margin: $align-center;
+  max-width: $container-max-width;
+  padding: $gutter-extra-small;
+}
+
+h1, h2, h3, h4, h5, h6, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
 a {
-  // color: $;
+  color: $brand-color-primary;
   text-decoration: none;
 
   @include on-event {
-    // color: $;
     text-decoration: underline;
   }
+}
+
+img {
+  width: 100%;
+}
+
+ul {
+  list-style: none;
 }
