@@ -1,8 +1,9 @@
 ---
 layout: page
 title: Title of Fifth Work
-description: Donec tincidunt massa a odio aliquet.
-grid-tile: grid-tile-wide
+description: Donec tincidunt massa a odio aliquet nullam maximus.
+preview: "assets/img/img_placeholder_10.jpg"
+grid-tile-size: grid-tile-wide
 year: 2005
 ---
 

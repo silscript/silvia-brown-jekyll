@@ -2,7 +2,7 @@
 layout: page
 title: Title of Fourth Work
 description: Vivamus gravida ante at mi condimentum commodo.
-thumbnail: "assets/img/img_placeholder_25.jpg"
+preview: "assets/img/img_placeholder_25.jpg"
 year: 2004
 ---
 

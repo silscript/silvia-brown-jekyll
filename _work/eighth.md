@@ -1,8 +1,8 @@
 ---
 layout: page
 title: Title of Eighth Work
-description: Mauris ac ligula at diam laoreet tempus.
-thumbnail: "assets/img/img_placeholder_25.jpg"
+description: Mauris ac ligula at diam laoreet tempus vitae nisi.
+preview: "../assets/img/img_placeholder_25.jpg"
 year: 2008
 ---
 

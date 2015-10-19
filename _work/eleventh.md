@@ -1,9 +1,9 @@
 ---
 layout: page
 title: Title of Eleventh Work
-description: Vivamus eu dui in velit dictum placerat.
-thumbnail: "assets/img/img_placeholder_20.jpg"
-grid-tile: grid-tile-wide
+description: Vivamus eu dui in velit dictum placerat aptent taciti.
+preview: "assets/img/img_placeholder_20.jpg"
+grid-tile-size: grid-tile-wide
 year: 2011
 ---
 

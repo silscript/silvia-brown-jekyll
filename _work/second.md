@@ -1,8 +1,8 @@
 ---
 layout: page
 title: Title of Second Work
-description: Proin semper turpis vitae semper mollis.
-thumbnail: "assets/img/img_placeholder_15.jpg"
+description: Proin semper turpis vitae semper mollis nec amet non.
+preview: "assets/img/img_placeholder_15.jpg"
 year: 2002
 ---
 
