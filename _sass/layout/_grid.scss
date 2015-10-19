@@ -7,18 +7,20 @@
 }
 
 .grid-tile {
-  background-color: orange;
   flex-basis: 100%;
-  overflow: hidden;
 
   > div {
     background-color: peachpuff;
-    height: 200px;
     margin: $gutter-extra-small;
   }
 
+  .grid-tile-mask {
+    max-height: 250px;
+    overflow: hidden;
+  }
+
   @include respond-to('extra-small') {
-    flex-basis: 0 0 50%;
+    flex-basis: 50%;
   }
 
   @include respond-to('small') {
@@ -26,12 +28,44 @@
   }
 
   @include respond-to('medium') {
+    flex-basis: 33.33333333333333%;
+  }
+
+  @include respond-to('large'){
+    flex-basis: 33.33333333333333%;
+  }
+
+  @include respond-to('extra-large'){
     flex-basis: 25%;
   }
 }
 
 .grid-tile-wide {
+
+  img {
+    @include respond-to('extra-large'){
+      position: relative;
+      bottom: 150px;
+    }
+  }
+
+  @include respond-to('extra-small') {
+    flex-basis: 50%;
+  }
+
   @include respond-to('small') {
+    flex-basis: 50%;
+  }
+
+  @include respond-to('medium') {
+    flex-basis: 33.33333333333333%;
+  }
+
+  @include respond-to('large'){
+    flex-basis: 33.33333333333333%;
+  }
+
+  @include respond-to('extra-large'){
     flex-basis: 50%;
   }
 }
