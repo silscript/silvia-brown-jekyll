@@ -22,16 +22,34 @@
 
   li {
     flex: 0 1 auto;
-    font-family: FontAwesome;
-    padding-left: $gutter-small;
+    padding-left: $gutter-medium;
     text-align: right;
+
+    .icon-fa {
+      display: inline-block;
+      font-family: FontAwesome;
+      font-style: normal;
+      font-weight: normal;
+      font-size-adjust: none;
+      font-stretch: normal;
+      font-feature-settings: normal;
+      font-language-override: normal;
+      font-kerning: auto;
+      font-synthesis: weight style;
+      font-variant: normal;
+      font-size: inherit;
+      text-rendering: auto;
+      -moz-osx-font-smoothing: grayscale;
+      -webkit-font-smoothing: antialiased;
+      font-size: 14px;
+    }
 
     .icon-db::after {
       content: '\f17d';
     }
 
     .icon-gh::after {
-      content: '\f09b';
+      content: '\f113';
     }
 
     .icon-in::after {
@@ -39,7 +57,7 @@
     }
 
     .icon-ln::after {
-      content: '\f0e1';
+      content: '\f08c';
     }
 
     .icon-tt::after {
