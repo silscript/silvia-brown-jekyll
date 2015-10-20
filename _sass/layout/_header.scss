@@ -37,36 +37,56 @@
       font-kerning: auto;
       font-synthesis: weight style;
       font-variant: normal;
-      font-size: inherit;
+      font-size: $font-size-large;
       text-rendering: auto;
       -moz-osx-font-smoothing: grayscale;
       -webkit-font-smoothing: antialiased;
-      font-size: 14px;
     }
 
-    .icon-db::after {
+    .icon-db:after {
       content: '\f17d';
     }
 
-    .icon-gh::after {
+    .icon-db:hover {
+      color: $brand-color-dribbble;
+    }
+
+    .icon-gh:after {
       content: '\f113';
     }
 
-    .icon-in::after {
+    .icon-gh:hover {
+      color: $brand-color-github;
+    }
+
+    .icon-in:after {
       content: '\f16d';
     }
 
-    .icon-ln::after {
+    .icon-in:hover{
+      color: $brand-color-instagram;
+    }
+
+    .icon-ln:after {
       content: '\f08c';
     }
 
-    .icon-tt::after {
+    .icon-ln:hover {
+      color: $brand-color-linkedin;
+    }
+
+    .icon-tt:after {
       content: '\f099';
+    }
+
+    .icon-tt:hover {
+      color: $brand-color-twitter;
     }
   }
 
   li:nth-child(1) {
     flex: 8 0 auto;
+    padding: 0;
     text-align: left;
   }
 
