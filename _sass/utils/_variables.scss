@@ -25,24 +25,31 @@ $line-height-medium: 1.500em;             // 15px
 $brand-color-primary: #000 !default;      // Black
 $brand-color-secondary: #FFF !default;    // White
 $brand-color-quaternary: #333 !default;   // Dark Grey
-
-// Other Brand Colors
+$brand-color-dribbble: #EA4C89;           // Vibrant Pink
+$brand-color-github: #999999;             // Warm Gray
+$brand-color-instagram: #3F729B;          // Dark Plae Blue
+$brand-color-linkedin: #0077B5;           // Deep Blue
+$brand-color-twitter: #55ACEE;            // Vibrant Sky Blue
 $color-light-grey: #EDEDED !default;
 $color-dark-grey: #444 !default;
 $color-mid-grey: #999 !default;
 
-// Padding & Margin
+// Margin Horizontal Alignment
+$align-center: 0 auto;
+
+// Padding & Margin Gutters
 $gutter-extra-small: 0.500em;             // 5px
 $gutter-small: 1.000em;                   // 10px
-$gutter-medium: 1.200em;                  // 12px
+$gutter-medium: 1.500em;                  // 15px
 $gutter-large: 2.000em;                   // 20px
+$gutter-extra-large: 4.000em;             // 40px
 
 // Breakpoints Map
 $breakpoints: (
   'extra-small': (min-width: 320px),
   'small': (min-width: 414px),
-  'medium': (min-width: 640px),
-  'large': (min-width: 768px),
+  'medium': (min-width: 600px),
+  'large': (min-width: 800px),
   'extra-large': (min-width: 1024px)
 ) !default;
 
