@@ -1,1 +1,32 @@
 // Header Styles
+
+.site-header {
+  line-height: 3.0;
+  padding: $gutter-extra-small;
+  width: 100%;
+}
+
+.site-nav {
+  width: 100%;
+
+  a {
+    font-size: $font-size-medium;
+    font-weight: bold;
+  }
+
+  ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+
+  li:nth-child(1) {
+    flex: 8 0 auto;
+    text-align: left;
+  }
+
+  img {
+    margin-top: 10px;
+    width: 15px;
+  }
+}
