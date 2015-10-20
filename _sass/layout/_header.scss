@@ -20,6 +20,33 @@
     flex-wrap: nowrap;
   }
 
+  li {
+    flex: 0 1 auto;
+    font-family: FontAwesome;
+    padding-left: $gutter-small;
+    text-align: right;
+
+    .icon-db::after {
+      content: '\f17d';
+    }
+
+    .icon-gh::after {
+      content: '\f09b';
+    }
+
+    .icon-in::after {
+      content: '\f16d';
+    }
+
+    .icon-ln::after {
+      content: '\f0e1';
+    }
+
+    .icon-tt::after {
+      content: '\f099';
+    }
+  }
+
   li:nth-child(1) {
     flex: 8 0 auto;
     text-align: left;
