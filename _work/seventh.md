@@ -2,7 +2,11 @@
 layout: page
 title: Title of Seventh Work
 description: Nunc eu erat vitae enim condimentum faucibus.
-preview: "assets/img/img_placeholder_20.jpg"
+work-image-one: "../../assets/img/img_placeholderWide_10.jpg"
+work-image-two: "../../assets/img/img_placeholderWide_15.jpg"
+work-image-three: "../../assets/img/img_placeholderWide_20.jpg"
+work-image-four: "../../assets/img/img_placeholderWide_25.jpg"
+work-preview: "../assets/img/img_placeholder_20.jpg"
 year: 2007
 ---
 

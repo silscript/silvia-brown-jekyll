@@ -2,7 +2,11 @@
 layout: page
 title: Title of Sixth Work
 description: Ut mollis diam sit amet est mattis commodo.
-preview: "assets/img/img_placeholder_15.jpg"
+work-image-one: "../../assets/img/img_placeholderWide_10.jpg"
+work-image-two: "../../assets/img/img_placeholderWide_15.jpg"
+work-image-three: "../../assets/img/img_placeholderWide_20.jpg"
+work-image-four: "../../assets/img/img_placeholderWide_25.jpg"
+work-preview: "../assets/img/img_placeholder_15.jpg"
 year: 2006
 ---
 

@@ -2,7 +2,11 @@
 layout: page
 title: Title of Twelfth Work
 description: Etiam aliquet mi et purus elementum dignissim.
-preview: "../assets/img/img_placeholder_25.jpg"
+work-image-one: "../../assets/img/img_placeholderWide_10.jpg"
+work-image-two: "../../assets/img/img_placeholderWide_15.jpg"
+work-image-three: "../../assets/img/img_placeholderWide_20.jpg"
+work-image-four: "../../assets/img/img_placeholderWide_25.jpg"
+work-preview: "../assets/img/img_placeholder_25.jpg"
 year: 2012
 ---
 
