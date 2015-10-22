@@ -1,0 +1,50 @@
+// Work Page Styles
+
+.work-images {
+  padding: $gutter-extra-small;
+  width: 100%;
+
+  @include respond-to('large') {
+    flex-basis: 75%;
+  }
+}
+
+.work-info {
+  display: inline-block;
+  padding: $gutter-extra-small;
+  width: 100%;
+
+  div:nth-child(1) {
+    margin-bottom: $gutter-medium;
+    padding-right: $gutter-extra-small;
+    width: 100%;
+
+    @include respond-to('small') {
+      float: left;
+      width: 33.33333333333333%;
+    }
+
+    @include respond-to('large') {
+      padding-left: $gutter-extra-small;
+      width: 100%;
+    }
+  }
+
+  div:nth-child(2) {
+    width: 100%;
+
+    @include respond-to('small') {
+      float: left;
+      width: 66.66666666666666%;
+    }
+
+    @include respond-to('large') {
+      padding-left: $gutter-extra-small;
+      width: 100%;
+    }
+  }
+
+  @include respond-to('large') {
+    width: 25%;
+  }
+}
