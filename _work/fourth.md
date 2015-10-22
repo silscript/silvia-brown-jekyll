@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Title of Fourth Work
-description: Vivamus gravida ante at mi condimentum commodo.
+categories: Category One, Category Two.
 work-image-one: "../../assets/img/img_placeholderWide_10.jpg"
 work-image-two: "../../assets/img/img_placeholderWide_15.jpg"
 work-image-three: "../../assets/img/img_placeholderWide_20.jpg"

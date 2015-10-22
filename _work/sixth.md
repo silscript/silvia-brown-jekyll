@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Title of Sixth Work
-description: Ut mollis diam sit amet est mattis commodo.
+categories: Category One, Category Two.
 work-image-one: "../../assets/img/img_placeholderWide_10.jpg"
 work-image-two: "../../assets/img/img_placeholderWide_15.jpg"
 work-image-three: "../../assets/img/img_placeholderWide_20.jpg"

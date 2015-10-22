@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Title of 10th Work
-description: Duis pulvinar velit sit amet faucibus pellentesque.
+categories: Category One, Category Two.
 work-image-one: "../../assets/img/img_placeholderWide_10.jpg"
 work-image-two: "../../assets/img/img_placeholderWide_15.jpg"
 work-image-three: "../../assets/img/img_placeholderWide_20.jpg"

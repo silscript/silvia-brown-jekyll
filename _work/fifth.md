@@ -1,8 +1,11 @@
 ---
 layout: page
 title: Title of Fifth Work
-description: Donec tincidunt massa a odio aliquet nullam maximus.
+categories: Category One, Category Two.
 work-image-one: "../../assets/img/img_placeholderWide_10.jpg"
+work-image-two: "../../assets/img/img_placeholderWide_15.jpg"
+work-image-three: "../../assets/img/img_placeholderWide_20.jpg"
+work-image-four: "../../assets/img/img_placeholderWide_25.jpg"
 work-preview: "../assets/img/img_placeholder_10.jpg"
 grid-tile-size: grid-tile-wide
 year: 2005
