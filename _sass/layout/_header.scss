@@ -1,7 +1,6 @@
 // Header Styles
 
 .site-header {
-  line-height: 3.0;
   padding: $gutter-extra-small;
   width: 100%;
 }
@@ -9,8 +8,9 @@
 .site-nav {
   width: 100%;
 
-  a {
+  a, span {
     font-size: $font-size-medium;
+    line-height: $line-height-large;
     font-weight: bold;
   }
 
@@ -18,6 +18,8 @@
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
+      margin-bottom: $gutter-small;
+      margin-top: $gutter-small;
   }
 
   li {
@@ -41,6 +43,10 @@
       text-rendering: auto;
       -moz-osx-font-smoothing: grayscale;
       -webkit-font-smoothing: antialiased;
+    }
+
+    .icon-em:after {
+      content: '\f0e0';
     }
 
     .icon-db:after {
@@ -86,8 +92,20 @@
 
   li:nth-child(1) {
     flex: 8 0 auto;
-    padding: 0;
+    padding: 3px 0 0 0;
     text-align: left;
+  }
+
+  span {
+    font-weight: normal;
+
+    @include respond-to('extra-small'){
+      display: none;
+    }
+
+    @include respond-to('medium'){
+      display: inline-block;
+    }
   }
 
   img {
@@ -95,3 +113,23 @@
     width: 15px;
   }
 }
+
+.site-profile {
+  display: none;
+  font-size: $font-size-extra-large;
+  font-weight: bold;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+  width: 100%;
+
+  p {
+    margin: $align-center;
+    width: 75%;
+  }
+
+  @include respond-to('medium'){
+    display: block;
+  }
+}
+

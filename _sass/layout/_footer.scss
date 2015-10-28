@@ -1,1 +1,17 @@
 // Footer Styles
+
+.site-footer {
+  line-height: $line-height-extra-large;
+  margin: $gutter-extra-small;
+
+  p {
+    font-size: $font-size-medium;
+    font-weight: normal;
+    margin-bottom: $gutter-small;
+    text-align: center;
+
+    @include respond-to('medium') {
+      text-align: left;
+    }
+  }
+}

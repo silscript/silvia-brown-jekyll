@@ -4,19 +4,32 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  margin-bottom: ($gutter-large * 2);
 }
 
 .grid-tile {
   flex-basis: 100%;
+  margin-bottom: $gutter-small;
 
   > div {
-    background-color: peachpuff;
     margin: $gutter-extra-small;
   }
 
   .grid-tile-mask {
-    max-height: 250px;
+    margin-bottom: $gutter-small;
+    // max-height: 240px;
     overflow: hidden;
+    position: relative;
+
+    &:hover {
+      filter: grayscale(1);
+      opacity: .7;
+      transition: .5s;
+    }
+  }
+
+  .grid-tile-info {
+    padding-right: $gutter-extra-small;
   }
 
   @include respond-to('extra-small') {
@@ -35,19 +48,19 @@
     flex-basis: 33.33333333333333%;
   }
 
-  @include respond-to('extra-large'){
-    flex-basis: 25%;
-  }
+  // @include respond-to('extra-large'){
+  //   flex-basis: 25%;
+  // }
 }
 
 .grid-tile-wide {
 
-  img {
-    @include respond-to('extra-large'){
-      position: relative;
-      bottom: 150px;
-    }
-  }
+  // img {
+  //   @include respond-to('extra-large'){
+  //     position: relative;
+  //     bottom: 22px;
+  //   }
+  // }
 
   @include respond-to('extra-small') {
     flex-basis: 50%;
@@ -65,7 +78,7 @@
     flex-basis: 33.33333333333333%;
   }
 
-  @include respond-to('extra-large'){
-    flex-basis: 50%;
-  }
+  // @include respond-to('extra-large'){
+  //   flex-basis: 50%;
+  // }
 }
