@@ -1,9 +1,24 @@
 ---
 layout: default
 ---
-<article>
-  <header>
+
+<div class="work-images">
+  <img src="{{ page.work-image-one | prepend: site.baseurl }}" alt=""/>
+<!--   <img src="{{ page.work-image-two | prepend: site.baseurl }}" alt=""/>
+  <img src="{{ page.work-image-three | prepend: site.baseurl }}" alt=""/>
+  <img src="{{ page.work-image-four | prepend: site.baseurl }}" alt=""/> -->
+</div>
+
+<div class="work-info">
+  <div>
     <h3>{{ page.title }}</h3>
-  </header>
-  <p>{{ content }}</p>
-</article>
+    <p><span>Client: </span>{{ page.client }}</p>
+    <p><span>Year: </span>{{ page.year }}</p>
+  </div>
+  <div>
+    <p>{{ content }}</p>
+  </div>
+<!--   <div>
+    <p><span>Resources: </span>{{ page.resources }}</p>
+  </div> -->
+</div>

@@ -5,7 +5,7 @@ client: Bloomberg, Sports Division
 categories: Web App
 year: 2011
 
-work-image-one: "../../assets/img/.jpg"
+work-image-one: "../../assets/img/img_fullviewBloombergSportsFrontOffice.jpg"
 work-preview: "../assets/img/img_previewBloombergSportsFrontOffice.jpg"
 ---
 

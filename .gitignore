@@ -21,3 +21,4 @@ test/watch-*.txt
 
 # Ignore these files temporarily.
 _site
+_sass/vendor/font-awesome/*

@@ -13,13 +13,13 @@ title: Silvia Brown
 description: "Silvia Brown's Work"
 
 # Header text.
-header_text: >
-  <h1>Header text placeholder.</h1>
-  <p>Paragraphy text placeholder.</p>
+# header_text: >
+#   <h1>Header text placeholder.</h1>
+#   <p>Paragraphy text placeholder.</p>
 
 # Footer text.
-footer_text: >
-  <p>Footer test placeholder.</p>
+# footer_text: >
+#   <p>All Rights Reserved. © 2010-2015 Silvia Brown</p>
 
 # Contact information.
 rss: false
@@ -43,6 +43,9 @@ tumblr:
 twitter: silscript
 youtube:
 
+# Script information.
+google_analytics: UA-69356206-1
+
 # Strings information.
 string_continue: "Read more ..."
 string_email: "Email"
@@ -59,7 +62,7 @@ paginate_path: "blog/page:num"
 collections:
   work:
     output: true
-    permalink: /work/:path/
+    permalink: /:path/
 
 # Site build settings.
 markdown: kramdown

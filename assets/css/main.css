@@ -510,6 +510,7 @@ html {
   -moz-osx-font-smoothing: grayscale; }
 
 body {
+  display: none;
   margin: 0 auto;
   max-width: 1200px;
   padding: 0.5em; }
@@ -600,13 +601,12 @@ p {
     margin: 0.5em; }
   .grid-tile .grid-tile-mask {
     margin-bottom: 1em;
-    max-height: 250px;
     overflow: hidden;
     position: relative; }
     .grid-tile .grid-tile-mask:hover {
       -webkit-filter: grayscale(1);
               filter: grayscale(1);
-      opacity: .2;
+      opacity: .7;
       -webkit-transition: .5s;
               transition: .5s; }
   .grid-tile .grid-tile-info {
@@ -631,16 +631,6 @@ p {
       -webkit-flex-basis: 33.33333333333333%;
           -ms-flex-preferred-size: 33.33333333333333%;
               flex-basis: 33.33333333333333%; } }
-  @media (min-width: 1024px) {
-    .grid-tile {
-      -webkit-flex-basis: 25%;
-          -ms-flex-preferred-size: 25%;
-              flex-basis: 25%; } }
-
-@media (min-width: 1024px) {
-  .grid-tile-wide img {
-    position: relative;
-    bottom: 150px; } }
 
 @media (min-width: 320px) {
   .grid-tile-wide {
@@ -666,19 +656,13 @@ p {
         -ms-flex-preferred-size: 33.33333333333333%;
             flex-basis: 33.33333333333333%; } }
 
-@media (min-width: 1024px) {
-  .grid-tile-wide {
-    -webkit-flex-basis: 50%;
-        -ms-flex-preferred-size: 50%;
-            flex-basis: 50%; } }
-
 .site-header {
   padding: 0.5em;
   width: 100%; }
 
 .site-nav {
   width: 100%; }
-  .site-nav a {
+  .site-nav a, .site-nav span {
     font-size: 1.2em;
     line-height: 2em;
     font-weight: bold; }
@@ -726,6 +710,8 @@ p {
       text-rendering: auto;
       -moz-osx-font-smoothing: grayscale;
       -webkit-font-smoothing: antialiased; }
+    .site-nav li .icon-em:after {
+      content: '\f0e0'; }
     .site-nav li .icon-db:after {
       content: '\f17d'; }
     .site-nav li .icon-db:hover {
@@ -753,6 +739,14 @@ p {
             flex: 8 0 auto;
     padding: 3px 0 0 0;
     text-align: left; }
+  .site-nav span {
+    font-weight: normal; }
+    @media (min-width: 320px) {
+      .site-nav span {
+        display: none; } }
+    @media (min-width: 600px) {
+      .site-nav span {
+        display: inline-block; } }
   .site-nav img {
     margin-top: 10px;
     width: 15px; }
@@ -773,9 +767,8 @@ p {
       display: block; } }
 
 .site-footer {
-  line-height: 3.2em;
-  margin: 0.5em;
-  width: 100%; }
+  line-height: 20px;
+  margin: 0.5em; }
   .site-footer p {
     font-size: 1.2em;
     font-weight: normal;
@@ -788,11 +781,8 @@ p {
 .work-images {
   padding: 0.5em;
   width: 100%; }
-  @media (min-width: 800px) {
-    .work-images {
-      -webkit-flex-basis: 75%;
-          -ms-flex-preferred-size: 75%;
-              flex-basis: 75%; } }
+  .work-images img {
+    margin-bottom: 0.5em; }
 
 .work-info {
   display: inline-block;
@@ -800,7 +790,6 @@ p {
   width: 100%; }
   .work-info div:nth-child(1) {
     margin-bottom: 1.5em;
-    padding-right: 0.5em;
     width: 100%; }
     @media (min-width: 414px) {
       .work-info div:nth-child(1) {
@@ -808,9 +797,10 @@ p {
         width: 33.33333333333333%; } }
     @media (min-width: 800px) {
       .work-info div:nth-child(1) {
-        padding-left: 0.5em;
-        width: 100%; } }
+        float: left;
+        width: 25%; } }
   .work-info div:nth-child(2) {
+    margin-bottom: 1.5em;
     width: 100%; }
     @media (min-width: 414px) {
       .work-info div:nth-child(2) {
@@ -818,8 +808,19 @@ p {
         width: 66.66666666666666%; } }
     @media (min-width: 800px) {
       .work-info div:nth-child(2) {
-        padding-left: 0.5em;
-        width: 100%; } }
-  @media (min-width: 800px) {
-    .work-info {
-      width: 25%; } }
+        float: left;
+        padding-right: 2em;
+        width: 50%; } }
+  .work-info div:nth-child(3) {
+    width: 100%; }
+    @media (min-width: 414px) {
+      .work-info div:nth-child(3) {
+        float: right;
+        width: 66.66666666666666%; } }
+    @media (min-width: 800px) {
+      .work-info div:nth-child(3) {
+        float: left;
+        width: 25%; } }
+  .work-info span {
+    color: #000;
+    font-weight: bold; }

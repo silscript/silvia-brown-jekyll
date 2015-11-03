@@ -5,7 +5,7 @@ categories: Web App
 client: Bloomberg, Finance Division
 year: 2012
 
-work-image-one: "../../assets/img/.jpg"
+work-image-one: "../../assets/img/img_fullviewBloombergWealth.jpg"
 work-preview: "../assets/img/img_previewBloombergWealthApp.jpg"
 ---
 
